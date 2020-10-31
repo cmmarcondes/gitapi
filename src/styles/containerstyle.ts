@@ -15,17 +15,6 @@ color: white;
 text-align: center;
 `;
 
-export const StyledContainer = styled.div`
-width: 100%;
-height: 100%;
-position: absolute;
-display: flex;
-background-color: #041F1E;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-`;
-
 export const StyledText = styled.h1`
 color: white;
 font-weight: lighter;
