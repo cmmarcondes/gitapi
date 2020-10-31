@@ -43,13 +43,17 @@ const Home: React.FC = () => {
             <ContainerSection>
             <Container input_handler={input_handler}/>
             </ContainerSection>
-            {repo ? <AvatarSection>
+            {value ? <>
+            <AvatarSection>
             <AvatarDetails user_details={repo}/>
-            </AvatarSection> : false}
-            
+            </AvatarSection>
             <DetailsSection ref={myRef}>
             {repo_control}
             </DetailsSection>
+            </>
+             : false}
+            
+            
         </Wrapper>
     );
 }
